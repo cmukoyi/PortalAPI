@@ -1,3 +1,3 @@
 # PortalAPI
 
-# This script creates users in bulk 
+This script creates users in bulk 

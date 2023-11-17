@@ -2,7 +2,7 @@ import csv
 import requests
 import json
 
-url = "https://poc.connectedcar360.net/V1/api/account/RegisterWithPolicy"
+url = "https://walaa.connectedcar360.net/V1/api/account/RegisterWithPolicy"
 headers = {
     'Content-Type': 'application/json'
 }

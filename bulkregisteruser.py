@@ -2,13 +2,13 @@ import csv
 import requests
 import json
 
-url = "https://walaa.connectedcar360.net/V1/api/account/RegisterWithPolicy"
+url = "https://poc.connectedcar360.net/V1/api/account/RegisterWithPolicy"
 headers = {
     'Content-Type': 'application/json'
 }
 
 success_count = 0
-with open('data.csv', 'r') as file:
+with open('C:/Users/Carlos Mukoyi/Documents/code/portalapi/data.csv', 'r') as file:
     reader = csv.DictReader(file)
     for row in reader:
         payload = {
